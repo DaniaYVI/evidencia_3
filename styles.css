@@ -1,4 +1,30 @@
 body{
     background-color: #839ec2;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+label{
+    font-weight: bold;
+}
+section{
+    background-color: #9fbfe9;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0);
+}
+input[type="text"], input[type="number"]{
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+pre#resultado{
+    padding: 10px;
+    overflow-x: auto;
+    margin:  auto;
+    width: 1000px; /* Ajusta el ancho */
+    height: 250px; /* Ajusta la altura */
+    font-size: 14px; /* Ajusta el tamaño de la fuente */
 }
