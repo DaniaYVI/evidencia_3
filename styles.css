@@ -19,12 +19,28 @@ input[type="text"], input[type="number"]{
     padding: 5px;
     margin-bottom: 10px;
 }
-
+button{
+    border-radius: 10px;
+    font-size: medium;
+}
+button.ejecutar{
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+button.ejecutar:hover{
+    background-color: #218838;
+}
 pre#resultado{
+    background-color: #b5cdec;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.637);
+    border-radius: 10px;
     padding: 10px;
     overflow-x: auto;
     margin:  auto;
-    width: 1000px; /* Ajusta el ancho */
-    height: 250px; /* Ajusta la altura */
-    font-size: 14px; /* Ajusta el tamaño de la fuente */
+    width: 700px;
+    height: 200px;
+    font-size: large;
 }
